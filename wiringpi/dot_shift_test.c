@@ -31,7 +31,7 @@
 #include <arpa/inet.h>
 
 // wiringPi Library use flag (if disable then normal spidev control)
-//#define USE_WIRING_PI_LIB
+#define USE_WIRING_PI_LIB
 
 // Display Item flag (if disable then Data & Time Display)
 #define DISPLAY_IP_ADDR
